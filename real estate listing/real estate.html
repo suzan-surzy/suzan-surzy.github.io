@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="real estate.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body class="container"data-bs-theme="dark">
+
+            <!-- navbar section -->
+        <nav class="navbar navbar-expand-sm bg-body-tertiary bs">
+            <div class="container-fluid">
+              <a style="color: black;" class="navbar-brand " href="#">Solex Real Estate</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0  ms-auto ">
+                  <li class="nav-item">
+                    <a style="color: black;" class="nav-link active" aria-current="page" href="real estate.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a style="color: black;" class="nav-link" href="team.html">Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a style="color: black;" class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a style="color: black;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Category
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="rent.html">For Rent</a></li>
+                      <li><a class="dropdown-item" href="land.html">Land</a></li>
+                    </ul>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li> -->
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+
+
+            <!-- carousel section -->
+        <section>
+        <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+    
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images/cute house-2.jfif" alt="Los Angeles" class="d-block w-100">
+      <div class="carousel-caption">
+        <h3>Our Service</h3>
+        <p> To Get Good And Comfortable House That Suit Your Taste </p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="./images/cute house-3.jfif" alt="Chicago" class="d-block w-100">
+      <div class="carousel-caption">
+        <h3>Ghana</h3>
+        <p>50 Listings</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="./images/cute house-4.jfif" alt="New York" class="d-block w-100">
+      <div class="carousel-caption">
+        <h3>Abuja</h3>
+        <p>12 Listings</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="./images/cute house.jfif" alt="New York" class="d-block w-100">
+      <div class="carousel-caption">
+        <h3>Aba</h3>
+        <p>40 Listings</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="./images/cute house-5.jfif" alt="New York" class="d-block w-100">
+      <div class="carousel-caption">
+        <h3>Lagos</h3>
+        <p>23 Listings</p>
+      </div>
+
+    </div>
+  </div>
+
+ <!-- Left and right controls/icons  -->
+   <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+</section> 
+
+       <!-- sub-heading -->
+<header><h2 class="choice container-fluid">Houses Of Your Choice</h2></header>
+
+       <!-- article section -->
+ <article class="container-fluid ">
+  <div class="row sector-2">
+    <div class="col-12 one">
+      <h1>Houses Around Africa</h1>
+      <p>Choose a Fitting and furnishing environment,we offer a suitable 
+        and comfortable housing you will like to buy.Affortable and confortable
+        home to stay and choose the house that suite your taste The some discount if
+        you follow the terms & conditions of this site.</p>
+    </div>
+
+    <form class="sector">
+      <h6>You Can't Find What You Are Looking For:</h6>
+      <label for="comment">comment:</label>
+      <input id="comment" name="comment" type="text" placeholder="you can't find what you are looking for">
+    </form>
+  </div>
+</article>
+
+      <!-- footer section -->
+<footer class="container-fluid">
+  <div class="roll-three">
+    <div class="roll-seven">
+     <h3 class="fourth-col">solex real estate</h3>
+     <div class="mute-1">
+      <h4><img class="fifth-col" src="./images/icon-location.svg" alt=""></h4>
+      <span class="sixth-col">P.M.B 2070,yaba,lagos,nigeria.</span>
+     </div>
+     <div class="mute-2">
+      <h4><img class="seventh-col" src="./images/icon-phone.svg" alt=""></h4>
+      <span class="main col">+234-09125044387</span>
+     </div>
+     <div class="mute-3">
+      <h4><img class="file-one col" src="./images/icon-email.svg" alt=""></h4>
+      <span >suzanokori@email.com</span>
+     </div>
+    </div>
+    <div class="row roll-four">
+     <h4 class="A">
+       About Us
+     </h4>
+     <p>
+      Solex real estate is a leading property website in Africa with property listings for sale, rent and lease.
+       We offer African property seekers an easy way to find details of property in africa like homes, houses, lands, shops, office spaces and other commercial property.
+     </p>
+    </div>
+  </div>
+  
+  <div class="roll-five">
+    <a href="">terms & conditions</a>
+    <a href="">private policy</a>
+</div>
+</footer>
+
+       
+      
+      
+         
+        
+    
+
+    <script src="js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
+<!-- Rent = 2.8m agency = 10% legal = 10% caution = 150k service charge = 600k total package = n4,110,000
+House for rent
+For rent furnished and fitted 3 bedrooms with bq( 1 bedroom) available for rent off osun crescent maitama, abuja furnished 40,000 usd annually. rent and service inclusive service...
+Self contain (single rooms) for rent
+Letting in a serene , secured estate location: river stone estate (terrace unit8) victoria bay road orchid road, lekki mini flat, with shared kitchen- 2.0m alc- 10% each s.c...
+Mini flat (room and parlour) for rent
+Decent upstairs mini flat 2t2b in a gated compound with good road *location directly on oworo road by olorunfunmi junction* *rent 600k* *agreement 120k* *agency 120k* *...
+100 acres of land behind shoprite, opposite monastery sangotedo, on interlocked roads. the land is before and close to other fast developing estates such as: peak luxury court, ite homes brookhill 111, bloom fountain, brooklyn county and adura court etc. it is perfect usage for estate development, schools and hotel/ resort centre and others. title: c of o price: n...
+
+
+
+Content from Nigeria Property Centre
+Read more at: https://nigeriapropertycentre.com/for-sale
+Well finished 5bedroom terrace duplex with spacious rooms in well secured environment. price: 180m location: ikate, lekki feature: just 3people in a compound living room fitted kitchen all rooms ensuit packing lot family lounge new gated estate guest toilet serne environment,... for more details/inspection: call:agatha:08087813295. gmail:agathahomes7@gmail.com www.agathahomesng.com email: info@agathahomesng.com #agathahomes...
+
+
+
+Content from Nigeria Property Centre
+Read more at: https://nigeriapropertycentre.com/for-sale
+130 plots of land in epe after at igbonla community after augustine university. land is suitable for estate development. title document - registered survey price : n1.2 million per p...
+
+
+
+Content from Nigeria Property Centre
+Read more at: https://nigeriapropertycentre.com/for-sale
+130 plots of land in epe after at igbonla community after augustine university. land is suitable for estate development. title document - registered survey price : n1.2 million per p...
+
+
+
+Content from Nigeria Property Centre
+Read more at: https://nigeriapropertycentre.com/for-sale -->

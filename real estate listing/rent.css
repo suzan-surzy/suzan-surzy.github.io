@@ -1,0 +1,270 @@
+nav{
+    background-image: url(./images/prices.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-brand{
+    font-size: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.sector-3{
+    padding: 50px;
+    
+}
+.sector-3 img{
+   height: 15rem;
+}
+section{
+   height: 74rem;
+   margin-top: 90px;
+   background-color: coral;
+   padding: 70px;
+   border-radius: 20px;
+}
+
+footer{
+    background-image: url(./images/juice.webp);
+    background-repeat: no-repeat;
+    height: 35rem;
+    width: 100%;
+    /* margin-top: 5px;
+    padding: 10px; */
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.roll-three{
+    /* display: flex;
+    flex-wrap: wrap; */
+     color: black;
+    margin-top: 60px;
+
+}
+.roll-seven h3 img{
+    height: 50px;
+    
+}
+.mute-1{
+    display: flex;
+    padding-top: 20px;
+}
+.mute-1 h4{
+    padding-right: 10px;
+}
+.mute-2{
+   display: flex;
+   padding-top: 15px;
+}
+.mute-2 h4{
+    padding-right: 10px;
+}
+.mute-3{
+    display: flex;
+    padding-top: 15px;
+}
+.mute-3 h4{
+    padding-right: 10px;
+}
+.roll-four{
+    /* padding-right: 30px; */
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.roll-four p{
+    font-family: serif;
+    font-size: 20px;
+}
+.A{
+    padding-bottom: 30px;
+    font-family: monospace;
+}
+.roll-five{
+    color: aqua;
+}
+.roll-five a{
+   text-decoration: none;
+   margin: 10px;
+}
+.roll-five a:hover{
+    text-decoration: underline;
+}
+
+
+@media(max-width:565px) and (min-width:104px) {
+    .container{
+        width: 400rem;
+    }
+    /* .col img{
+    height: 15rem;
+    } */
+    nav{
+        background-image: url(./images/prices.jpg);
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .navbar-brand{
+        font-size: 500px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+    }
+    .navbar-nav{
+        color: black;
+    }
+    .sector-3{
+         height: 20rem;
+         
+    }
+    .sector-3 img{
+        height: 10rem;
+    }
+    section{
+        height: 65rem;
+        margin-top: 90px;
+        background-color: coral;
+    }
+    footer{
+        background-color: rgb(3, 22, 22);
+        height: 40rem;
+        width: 100%;
+        /* margin-top: 5px;
+        padding: 10px; */
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .roll-three{
+        /* display: flex;
+        flex-wrap: wrap; */
+        margin-top: 80px;
+        color: white;
+    }
+    .roll-seven h3 img{
+        height: 50px;
+        
+    }
+    .mute-1{
+        display: flex;
+        padding-top: 20px;
+    }
+    .mute-1 h4{
+        padding-right: 10px;
+    }
+    .mute-2{
+       display: flex;
+       padding-top: 15px;
+    }
+    .mute-2 h4{
+        padding-right: 10px;
+    }
+    .mute-3{
+        display: flex;
+        padding-top: 15px;
+    }
+    .mute-3 h4{
+        padding-right: 10px;
+    }
+    .roll-four{
+        /* padding-right: 30px; */
+        padding-top: 50px;
+        padding-left: 90px;
+    }
+    .A{
+        padding-bottom: 50px;
+    }
+    .roll-five{
+        color: aqua;
+    }
+    .roll-five a{
+       text-decoration: none;
+       margin: 10px;
+    }
+    .roll-five a:hover{
+        text-decoration: underline;
+    }
+}
+@media(max-width:977px) and (min-width:768px){
+    .container{
+        max-width: 720px;
+    }
+    nav{
+        background-image: url(./images/prices.jpg);
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .navbar-brand{
+        font-size: 500px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+    }
+    .navbar-nav{
+        color: black;
+    }
+    .sector-3 img{
+         height: 10rem;
+    }
+    .sector-3{
+        padding: 70px;
+    }
+    section{
+        margin-top: 90px;
+        height: 70rem;
+        background-color: blueviolet;
+        /* display: flex; */
+        /* padding: 50px; */
+    }
+    
+    footer{
+        background-color: rgb(3, 22, 22);
+        height: 35rem;
+        /* width: 100%; */
+        margin-top: 50px;
+        padding: 10px;
+    }
+    .roll-three{
+        display: flex;
+        margin-top: 50px;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .roll-seven h3 img{
+        height: 50px;
+        
+    }
+    .mute-1{
+        display: flex;
+        padding-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .mute-1 h4{
+        padding-right: 10px;
+    }
+    .mute-2{
+       display: flex;
+       padding-top: 15px;
+    }
+    .mute-2 h4{
+        padding-right: 10px;
+    }
+    .mute-3{
+        display: flex;
+        padding-top: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .mute-3 h4{
+        padding-right: 10px;
+    }
+    .roll-four{
+        padding-top: 50px;
+        /* padding-right: 300px; */
+        padding-left: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .roll-five{
+        padding: 50px;
+        font-family: fantasy;
+    }
+}
