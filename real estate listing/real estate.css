@@ -4,6 +4,7 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 70px;
+    position: sticky;
 }
 .navbar-brand{
     font-size: 500px;
@@ -114,9 +115,9 @@ form h6{
 .roll-five{
     padding: 50px;
 } 
-@media(max-width:565px) and (min-width:104px) {
+@media(max-width:710px) and (min-width:467px) {
     .container{
-        width: 400rem;
+       max-width: 540px;
     }
     /* .col img{
     height: 15rem;
@@ -188,7 +189,7 @@ form h6{
         box-shadow: 10px;
         margin-bottom: 40px;
     }
-    form{
+    .sector{
         /* height: 14rem; */
         /* padding-top: 50px; */
         color: red;
@@ -261,7 +262,7 @@ form h6{
         text-decoration: underline;
     }
 }
-@media(max-width:977px) and (min-width:768px){
+@media(max-width:990px) and (min-width:711px){
     .container{
         max-width: 720px;
     }
@@ -327,7 +328,7 @@ form h6{
         margin-bottom: 50px;
         /* display: flex; */
     } 
-    form{
+    .sector{
         /* height: 14rem; */
         /* padding-top: 40px; */
         color: red;
@@ -383,7 +384,7 @@ form h6{
         padding-right: 10px;
     }
     .roll-four{
-        padding-top: 50px;
+        padding-top: 30px;
         /* padding-right: 300px; */
         padding-left: 50px;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -393,7 +394,10 @@ form h6{
         font-family: fantasy;
     }
 }
-@media(max-width:1200px) and (min-width:977px){
+@media(max-width:1200px) and (min-width:989px){
+    .container{
+        max-width: 1140px;
+    }
     nav{
         background-image: url(./images/prices.jpg);
         height: 200px;
@@ -425,7 +429,7 @@ form h6{
        color: black;
     }
     .sector{
-        padding-top: 300px;
+        padding-top: 150px;
     }
     article{
         background-image: url(./images/africa.png);
@@ -486,27 +490,10 @@ form h6{
     }
     .roll-four{
          padding-top: 50px; 
-        padding-right: 300px;
-        padding-left: 300px; 
+        padding-right: 70px;
+        padding-left: 30px; 
     }
-    .A{
-        padding-bottom: 10px;
-    }
-    .B{
-        padding-top: 10px;
-    }
-    .C{
-        padding-top: 15px;
-    }
-    .D{
-        padding-bottom: 10px;
-    }
-    .E{
-        padding-top: 10px;
-    }
-    .F{
-        padding-top: 15px;
-    }
+    
     .roll-five{
         padding: 50px;
     } 

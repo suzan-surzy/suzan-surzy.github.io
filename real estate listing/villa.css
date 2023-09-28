@@ -115,15 +115,15 @@ footer{
     }
      */
      .first-roll{
-        width: 7rem;
+        width: 6rem;
         padding: 20px;
     }
    .sector-3{
-       padding: 40px;
+       padding: 10px;
    }
    section{
        margin-top: 30px;
-       height: 60rem;
+       height: 99rem;
        background-color: blueviolet;
        box-shadow: 10px 12px;
        border-radius: 10px;
@@ -209,23 +209,20 @@ footer{
         color: black;
     }
     .first-roll{
-        width: 7rem;
+        width: 5rem;
         padding: 20px;
     }
    .sector-3{
-       padding: 70px;
+       padding: 20px;
    }
    section{
        margin-top: 90px;
-       height: 60rem;
+       height: 75rem;
        background-color: blueviolet;
        /* display: flex; */
        /* padding: 50px; */
    }
     
-    article{
-    
-    } 
     footer{
         background-color: rgb(3, 22, 22);
         height: 400px;
